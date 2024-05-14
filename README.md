@@ -1,4 +1,4 @@
-# mathematical_modelling
+# price_analysis
 
 ## The price analysis of KMR company. 
 
