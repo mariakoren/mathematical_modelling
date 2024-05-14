@@ -1,7 +1,11 @@
 # mathematical_modelling
 
-Here, the price analysis of KMR companies was performed, also analysing the two-dimensional distribution for KMR and JJB companies. Regression was also performed
+## The price analysis of KMR company. 
 
-The task was performed in R, description (in Polish) presented in .tex and .pdf
+Diagram and histogram of prices in 2022. Calculated statistics (mean, standard deviation, skewness, kurtosis). Parameter estimation of normal distribution, log-normal distribution and weibull distribution. Comparing them using diagnostic charts (qq plot, cdf). Testing the distribution hypothesis with Kolmogorov-Smirnov statistics. The best for KMR prices is LN. 
 
-this task was completed by me in my third semester at the University of Gdansk (november 223 - january 2024)
+## Analysis of the cumulative distribution of log-returns KMR and JJB
+The first stage is doing exactly the same as in first stage but with logs of prices. The second is fitting  two-dimensional distribution for data. Distribution matching analysis with Mahalanobis distances, in result, distribution of log-returns not normal
+
+## Regression
+On base of log-return is perfomed lenear regression
